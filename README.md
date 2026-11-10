@@ -18,4 +18,4 @@ These days I ship mostly by directing AI coding agents. I write the spec, split 
 - **Back end:** Node, GraphQL, Postgres, Supabase, AWS
 - **Testing:** Vitest, Jest, Testing Library, Playwright
 
-Repos from before 2022 are archived. They're older work, kept for history.
+Older repos from 2015 to 2021 are kept for history.
