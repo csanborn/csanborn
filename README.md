@@ -7,7 +7,7 @@ These days I ship mostly by directing AI coding agents. I write the spec, split 
 ## Recent projects
 
 - [couch-picks](https://github.com/csanborn/couch-picks): a TV-style React app you drive with arrow keys. A hand-written spatial focus engine, plus the Claude API turning a mood into rows of picks. Runs offline in demo mode.
-- [member-lab](https://github.com/csanborn/member-lab): a full stack membership demo in TypeScript. A GraphQL API with idempotent signup and cancel that never charges twice, a home-grown A/B testing layer (hash bucketing, z-test, sample ratio mismatch check), and Prometheus metrics with an alert rule.
+- [member-lab](https://github.com/csanborn/member-lab): a React and TanStack Query membership flow with A/B variants rendered in the browser, exposures logged only on real render, and a results page with confidence intervals, a trend chart and a sample ratio mismatch warning. Optimistic cancel, a bundle budget and Web Vitals, over a deliberately small GraphQL API.
 - [spec-trace-mcp](https://github.com/csanborn/spec-trace-mcp): an MCP server that lets coding agents check which acceptance criteria in a spec have tests, and which do not.
 - [agent-guardrails](https://github.com/csanborn/agent-guardrails): a Claude Code plugin with hooks and skills that stop agents from skipping linters, skipping tests or force pushing.
 - [spec-to-code](https://github.com/csanborn/spec-to-code): a planner, implementer and reviewer agent loop that turns a short spec into a tested TypeScript module. The reviewer runs the real tests instead of trusting the model.
